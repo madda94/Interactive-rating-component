@@ -1,0 +1,117 @@
+htnml,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(215, 18%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+.container {
+    display: block;
+    width: 80%;
+    margin: 8em auto;
+}
+#rating-component,
+#thank-you-div {
+    background-color: hsl(212, 30%, 18%);
+    padding: 1.8em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+}
+.star-image {
+    background-color: hsl(219, 33%, 25%);
+    padding: .7em;
+    border-radius: 50%;
+}
+p {
+    color: hsl(217, 12%, 63%);
+}
+.rating-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+.star {
+    color: hsl(217, 31%, 51%);
+    background-color: hsl(219, 36%, 26%);
+    padding: .6em 1em;
+    margin: .7em;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+}
+.star:hover,
+.star:focus {
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+}
+button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    width: 95%;
+    margin: 2em auto;
+    padding: 1em;
+    cursor: pointer;
+    justify-self: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    display: flex;
+    justify-content: center;
+}
+button:hover,
+button:focus {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+#thank-you-div {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.thank-you-img {
+    margin: auto;
+    width: 50%;
+}
+#selected-rating {
+    background-color: hsl(219, 33%, 25%);
+    color: hsl(25, 97%, 53%);
+    padding: .5em .8em;
+    border-radius: 20px;
+    margin: 1.7em auto 1em;
+}
+.thanks-p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: antiquewhite;
+}  
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 570px) {
+    .container {
+        width: 60%;
+    }
+}
+@media (min-width: 700px) {
+    .container {
+        width: 50%;
+    }
+}
+@media (min-width: 850px) {
+    .container {
+        width: 40%;
+    }
+}
+@media (min-width: 900px) {
+    .container {
+        width: 30%;
+    }
+}

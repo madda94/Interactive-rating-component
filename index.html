@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="rating-component">
+      <img src=" images/icon-star.svg" class="star-image">
+      <h1>How did we do?</h1>
+      <p> Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <div class="rating-numbers">
+        <div class="star" data-star="1" id="1">1</div>
+        <div class="star" data-star="2" id="2">2</div>
+        <div class="star" data-star="3" id="3">3</div>
+        <div class="star" data-star="4" id="4">4</div>
+        <div class="star" data-star="5" id="5">5</div>
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <div id="thank-you-div">
+      <img src="images/illustration-thank-you.svg" class="thank-you-img">
+      <p id="selected-rating">You selected --4 -- out of 5</p>
+      <h2>Thank you!</h2>
+      <p class="thanks-p">We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Madalina Peter</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
